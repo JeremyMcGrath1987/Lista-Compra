@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+#main-container{
+    margin: 0 auto;
+    width: 305px;
+    background: #ffff4f;
+    padding: 50px;
+    background-image: repeating-linear-gradient(rgb(243, 57, 57) 0px, rgb(243, 57, 57) 3px, transparent 1px, transparent 60px);
+    background-repeat: repeat-y, no-repeat;
+
+}
+input[type="text"]{
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width:5px;
+    color:black;
+    cursor:default;
+}
+
+#main-container form input{
+    font-size: 24px;
+    padding: 20px;
+    width: 305px;
+}
+
+#listaCompras .listaCompra{
+    width: 100%;
+    margin: 10px 0;
+}
+
+#listaCompras .listaCompra div{
+    display: inline-block;
+    padding: 10px 5px;
+    
+}
+#listaCompras .listaCompra .checkbox-container{
+    width: 25px;
+}
+
+#listaCompras .listaCompra .checkbox-container input{
+    transform: scale(2);
+}
+
+#listaCompras .listaCompra .text-container{
+    color: black;
+    width: 200px;
+}
+
+#listaCompras .listaCompra .completed{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+#listaCompras .listaCompra .actions-container a{
+    color: #ccc;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+}
+#listaCompras .listaCompra .actions-container a:hover{
+    color: rgb(30, 71, 136);
+}
